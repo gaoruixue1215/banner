@@ -2,9 +2,9 @@ var $banner = (function(){
     function Carousel() {}
     var opt = {
         container:'body',//容器
-        time:1000,//循环时间
+        time:1000,
         imgArr:['img/b1.png'],//图片
-        page:1,//轮播个数
+        page:1,//轮播图片个数
     }
     var timer;
     var index = 1;
